@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo } from "react";
+import { useCallback, useMemo } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import { Box } from "@mui/material";
 

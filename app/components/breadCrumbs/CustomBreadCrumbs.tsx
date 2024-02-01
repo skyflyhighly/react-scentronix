@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useMemo } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { Breadcrumbs, Typography, Stack, Box } from "@mui/material";
+import { Breadcrumbs, Typography, Stack } from "@mui/material";
 
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
