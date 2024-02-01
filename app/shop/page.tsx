@@ -1,6 +1,6 @@
 "use client";
 
-export default function recipes() {
+export default function shop() {
   return (
     <main>
       <div></div>
