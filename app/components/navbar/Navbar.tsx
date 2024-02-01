@@ -15,9 +15,9 @@ export const Categories = [
 ];
 
 export const SubCategories = [
-  { label: "categories", url: "categories" },
-  { label: "collections", url: "collections" },
-  { label: "resources", url: "resources" },
+  { label: "categories", url: "recipes/categories" },
+  { label: "collections", url: "recipes/collections" },
+  { label: "resources", url: "recipes/resources" },
 ];
 
 const Navbar = () => {
@@ -32,6 +32,7 @@ const Navbar = () => {
                 key={category.url}
                 label={category.label}
                 url={category.url}
+                underline={true}
               />
             ))}
           </Container>
@@ -43,6 +44,7 @@ const Navbar = () => {
                 key={category.url}
                 label={category.label}
                 url={category.url}
+                underline={false}
               />
             ))}
           </Container>
